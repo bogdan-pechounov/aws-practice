@@ -1,3 +1,4 @@
+Apache Server
 https://www.youtube.com/watch?v=ynPjd9TKLc4
 
 ssh with putty and .ppk file
@@ -5,3 +6,11 @@ sudo apt-get install apache2
 edit inbound rules
 cd /var/www/html
 edit index.html
+
+Node
+https://www.youtube.com/watch?v=oHAQ3TzUTro
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+
+ssh -i "ubuntu.pem" ubuntu@exc2-44-202-209-48.compute-1.amazonaws.com
+chmod 400 ubuntu.pem
+rsync -avz -e "ssh -i ~/.ssh/ubuntu.pem" node-server/ ubuntu@44.202.209.48:~/node-server/
