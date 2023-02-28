@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=ynPjd9TKLc4
+
+ssh with putty and .ppk file
+sudo apt-get install apache2
+edit inbound rules
+cd /var/www/html
+edit index.html
